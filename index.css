@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 18px;
+}
+
+:root {
+  --colorRojo: hsl(0, 100%, 67%);
+  --colorNaranja: hsl(39, 100%, 56%);
+  --colorVerde: hsl(166, 100%, 37%);
+  --colorAzul: hsl(234, 85%, 45%);
+  --colorGradienteSlateBlue: hsl(252, 100%, 67%);
+  --colorGradienteRoyalBlue: hsl(241, 81%, 54%);
+  --colorVioleta: hsla(256, 72%, 46%, 1);
+  --colorPersian: hsla(241, 72%, 46%, 0);
+  --colorBlanco: hsl(0, 0%, 100%);
+  --colorGris: hsl(221, 100%, 96%);
+  --colorVioletaClaro: hsl(241, 100%, 89%);
+  --colorOscuro: hsl(224, 30%, 27%);
+  --fontOficial: 'Hanken Grotesk', sans-serif;
+}
+
+body {
+  font-family: var(--fontOficial);
+}
+
+.contenedor__main {
+  background-color: var(--colorGradienteRoyalBlue);
+  color: var(--colorBlanco);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 30px 50px 50px 50px;
+  align-items: center;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+.text--main {
+  color: var(--colorVioletaClaro);
+  font-weight: 700;
+}
+
+.container__numer-carga {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  background-image: linear-gradient(hsla(224, 30%, 27%, 0.384), hsla(224, 30%, 27%, 0.034));
+  border-radius: 50%;
+  padding: 20px 35px;
+}
+
+.number--grande {
+  font-size: 2.5em;
+}
+
+.number--chico {
+  font-size: .85em;
+  color: var(--colorGradienteSlateBlue);
+  font-weight: 700;
+}
+
+.container__main-paragraph {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.title--paragraph {
+  font-size: 1.2em;
+  font-weight: 500;
+}
+
+.paragraph--main {
+  font-size: .85em;
+  text-align: center;
+  color: var(--colorVioletaClaro);
+}
