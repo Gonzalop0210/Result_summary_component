@@ -6,6 +6,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <title>Frontend Mentor | Results summary component</title>
   <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="index-grande.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
@@ -23,5 +24,53 @@
       <p class="paragraph--main">You scored higher than 65% of the people who have taken these tests.</p>
     </div>
   </main>
+  <aside class="container__aside">
+    <h2 class="title__aside">Summary</h2>
+    <div class="aside--item aside--item-rojo">
+      <div class="container--icon-name">
+        <img src="assets/images/icon-reaction.svg" alt="Reaction" class="img--reaction">
+        <span class="name--item name--item-rojo">Reaction</span>
+      </div>
+      <div class="container--numbers">
+        <span class="item--one-number number--seleccionado">80</span>
+        <span class="item--separador">/</span>
+        <span class="item--two-number">100</span>
+      </div>
+    </div>
+    <div class="aside--item aside--item-naranja">
+      <div class="container--icon-name">
+        <img src="assets/images/icon-memory.svg" alt="memory" class="img--memory">
+        <span class="name--item name--item-naranja">Memory</span>
+      </div>
+      <div class="container--numbers">
+        <span class="item--one-number number--seleccionado">92</span>
+        <span class="item--separador">/</span>
+        <span class="item--two-number">100</span>
+      </div>
+    </div>
+    <div class="aside--item aside--item-verde">
+      <div class="container--icon-name">
+        <img src="assets/images/icon-verbal.svg" alt="verbal" class="img--verbal">
+        <span class="name--item name--item-verde">Verbal</span>
+      </div>
+      <div class="container--numbers">
+        <span class="item--one-number number--seleccionado">61</span>
+        <span class="item--separador">/</span>
+        <span class="item--two-number">100</span>
+      </div>
+    </div>
+    <div class="aside--item aside--item-azul">
+      <div class="container--icon-name">
+        <img src="assets/images/icon-visual.svg" alt="Visual" class="img--visual">
+        <span class="name--item name--item-azul">Visual</span>
+      </div>
+      <div class="container--numbers">
+        <span class="item--one-number number--seleccionado">72</span>
+        <span class="item--separador">/</span>
+        <span class="item--two-number">100</span>
+      </div>
+    </div>
+    <button class="container--button">Continue</button>
+  </aside>
 </body>
 </html>
