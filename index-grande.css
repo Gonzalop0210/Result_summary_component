@@ -1,3 +1,20 @@
 @media screen and (min-width: 1444px) {
-  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 20px;
+  }
+
+  .contenedor__main {
+    border-radius: 30px;
+    width: 300px;
+    height: 355px;
+  }
+
+  .container__aside {
+    width: 300px;
+    padding: 0;
+  }
 }
